@@ -1,0 +1,178 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* === Header === */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #333;
+  color: #fff;
+}
+
+.site-header .logo a {
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.site-nav ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+.site-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.3rem 0.5rem;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  color: #8a7cf6;
+  outline: 3px solid transparent;
+  outline-offset: 3px;
+}
+
+/* === Hero === */
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: url('https://via.placeholder.com/1200x400') center/cover no-repeat;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-btn {
+  background: #8a7cf6;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.hero-btn:hover {
+  background: #6f5ad6;
+}
+
+/* === Grid / Products === */
+.menu-section {
+  padding: 2rem 1rem;
+}
+
+.menu-section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.product-card {
+  background: #fff;
+  border-radius: 14px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  padding: 1rem;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 12px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 0.8rem;
+}
+
+.product-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.product-card .price {
+  font-weight: bold;
+  margin-bottom: 0.8rem;
+}
+
+.btn-add-to-cart {
+  background: #8a7cf6;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-add-to-cart:hover {
+  background: #6f5ad6;
+}
+
+/* === Chefs === */
+.chefs {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.chefs-grid {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.chef-card {
+  width: 150px;
+}
+
+.chef-card img {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+}
+
+/* === Footer === */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* === Mobile === */
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr; /* 1 per row on very small screens */
+  }
+
+  .chefs-grid {
+    gap: 0.5rem;
+  }
+}
