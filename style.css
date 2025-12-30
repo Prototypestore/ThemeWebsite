@@ -46,7 +46,7 @@
 .hero {
   text-align: center;
   padding: 3rem 1rem;
-  background: url('https://img.freepik.com/premium-photo/food-table_1048944-3196011.jpg') center/cover no-repeat;
+  background: url('https://wallpapercave.com/wp/wp11872862.jpg') center/cover no-repeat;
   color: #fff;
 }
 
@@ -146,10 +146,16 @@
 
 .chef-card {
   width: 150px;
+  height: 150px; /* fixed height to match width */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .chef-card img {
   width: 100%;
+  height: 100%;
+  object-fit: contain;
   border-radius: 50%;
   margin-bottom: 0.5rem;
 }
