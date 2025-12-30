@@ -177,7 +177,7 @@
   height: 100%;
   object-fit: cover;
   border-radius: 50%;
-  margin-bottom: 0.5rem; /* spacing below image */
+  margin-bottom: 1.2rem; /* spacing below image */
 }
 
 /* === Footer === */
