@@ -1,26 +1,26 @@
 [
   {
     "id": 1,
-    "name": "Grilled Chicken",
-    "price": 15.00,
-    "image": "https://via.placeholder.com/200x150?text=Grilled+Chicken"
+    "name": "Fried Chicked",
+    "price": 18.00,
+    "image": "https://tse1.mm.bing.net/th/id/OIP.yxgiSBAO7bBILGSMUv3REgHaFj?rs=1&pid=ImgDetMain&o=7&rm=3"
   },
   {
     "id": 2,
     "name": "Veggie Burger",
-    "price": 12.00,
-    "image": "https://via.placeholder.com/200x150?text=Veggie+Burger"
+    "price": 25.00,
+    "image": "https://tse1.mm.bing.net/th/id/OIP.2ajZVYpbRl7E8N3nCDEmawHaE8?rs=1&pid=ImgDetMain&o=7&rm=3"
   },
   {
     "id": 3,
-    "name": "Pasta Carbonara",
-    "price": 18.00,
-    "image": "https://via.placeholder.com/200x150?text=Pasta+Carbonara"
+    "name": "Gnocchi",
+    "price": 32.00,
+    "image": "https://th.bing.com/th/id/R.0fb03660cdf0b74d37f14ad516af7309?rik=MQryqlS66DQkyQ&riu=http%3a%2f%2fcdn2.tmbi.com%2fTOH%2fImages%2fPhotos%2f37%2f1200x1200%2fexps48966_THCSS153652B01_23_6b.jpg&ehk=5CZKTe5J7eimJOr5I7yJUKZCZdM6rwM5ukDpDkvq8fk%3d&risl=&pid=ImgRaw&r=0"
   },
   {
     "id": 4,
     "name": "Caesar Salad",
-    "price": 10.00,
-    "image": "https://via.placeholder.com/200x150?text=Caesar+Salad"
+    "price": 20.00,
+    "image": "https://natashaskitchen.com/wp-content/uploads/2019/01/Caesar-Salad-Recipe-3.jpg"
   }
 ]
