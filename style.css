@@ -33,6 +33,7 @@
   text-decoration: none;
   font-weight: 500;
   padding: 0.3rem 0.5rem;
+  white-space: nowrap;
 }
 
 .site-nav a:hover,
@@ -44,10 +45,23 @@
 
 /* === Hero === */
 .hero {
+  position: relative;
   text-align: center;
   padding: 3rem 1rem;
   background: url('https://wallpapercave.com/wp/wp11872862.jpg') center/cover no-repeat;
   color: #fff;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+}
+
+.hero * {
+  position: relative;
+  z-index: 1;
 }
 
 .hero h1 {
@@ -97,6 +111,12 @@
   text-align: center;
   box-shadow: 0 6px 18px rgba(0,0,0,0.1);
   padding: 1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 28px rgba(0,0,0,0.15);
 }
 
 .product-card img {
@@ -146,7 +166,7 @@
 
 .chef-card {
   width: 150px;
-  height: 150px; /* fixed height to match width */
+  height: 150px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -175,10 +195,15 @@ footer {
   }
 
   .grid {
-    grid-template-columns: 1fr; /* 1 per row on very small screens */
+    grid-template-columns: 1fr;
   }
 
   .chefs-grid {
     gap: 0.5rem;
+  }
+
+  .site-nav a {
+    padding: 0.4rem 0.6rem;
+    font-size: 0.95rem;
   }
 }
