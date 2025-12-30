@@ -1,26 +1,142 @@
 [
   {
     "id": 1,
-    "name": "Fried Chicked",
-    "price": 18.00,
-    "image": "https://tse1.mm.bing.net/th/id/OIP.yxgiSBAO7bBILGSMUv3REgHaFj?rs=1&pid=ImgDetMain&o=7&rm=3"
+    "name": "Caesar Salad",
+    "price": 11.99,
+    "image": "https://bing.com/th?id=OSK.3f8716fa688067eb7ac348866a79715b",
+    "description": "Crisp romaine lettuce with creamy Caesar dressing and parmesan."
   },
   {
     "id": 2,
-    "name": "Veggie Burger",
-    "price": 25.00,
-    "image": "https://tse1.mm.bing.net/th/id/OIP.2ajZVYpbRl7E8N3nCDEmawHaE8?rs=1&pid=ImgDetMain&o=7&rm=3"
+    "name": "Gnocchi",
+    "price": 14.99,
+    "image": "https://th.bing.com/th/id/R.0fb03660cdf0b74d37f14ad516af7309?rik=MQryqlS66DQkyQ&riu=http%3a%2f%2fcdn2.tmbi.com%2fTOH%2fImages%2fPhotos%2f37%2f1200x1200%2fexps48966_THCSS153652B01_23_6b.jpg&ehk=5CZKTe5J7eimJOr5I7yJUKZCZdM6rwM5ukDpDkvq8fk%3d&risl=&pid=ImgRaw&r=0",
+    "description": "Soft potato dumplings with rich tomato basil sauce."
   },
   {
     "id": 3,
-    "name": "Gnocchi",
-    "price": 32.00,
-    "image": "https://th.bing.com/th/id/R.0fb03660cdf0b74d37f14ad516af7309?rik=MQryqlS66DQkyQ&riu=http%3a%2f%2fcdn2.tmbi.com%2fTOH%2fImages%2fPhotos%2f37%2f1200x1200%2fexps48966_THCSS153652B01_23_6b.jpg&ehk=5CZKTe5J7eimJOr5I7yJUKZCZdM6rwM5ukDpDkvq8fk%3d&risl=&pid=ImgRaw&r=0"
+    "name": "Fried Chicken",
+    "price": 13.50,
+    "image": "https://tse1.mm.bing.net/th/id/OIP.qaOJCXub2RFXZ4wTgW6whAHaE8?rs=1&pid=ImgDetMain&o=7&rm=3",
+    "description": "Crispy golden fried chicken served with your choice of dip."
   },
   {
     "id": 4,
-    "name": "Caesar Salad",
-    "price": 20.00,
-    "image": "https://natashaskitchen.com/wp-content/uploads/2019/01/Caesar-Salad-Recipe-3.jpg"
+    "name": "Veggie Burger",
+    "price": 12.00,
+    "image": "https://www.blondelish.com/wp-content/uploads/2019/02/Easy-Veggie-Burger-Recipe-Vegan-Healthy-9.jpg",
+    "description": "Grilled plant-based burger with fresh toppings."
+  },
+  {
+    "id": 5,
+    "name": "Margherita Pizza",
+    "price": 15.00,
+    "image": "https://th.bing.com/th/id/OIP.PHHJ-IQE1K-ECfjmv9sC3wHaHa?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "description": "Classic pizza with tomato, mozzarella & basil."
+  },
+  {
+    "id": 6,
+    "name": "Spaghetti Bolognese",
+    "price": 13.99,
+    "image": "https://tse1.mm.bing.net/th/id/OIP.yFxvTvj8pWgHMqtRWlmcoQHaKD?rs=1&pid=ImgDetMain&o=7&rm=3",
+    "description": "Rich meat sauce served over tender spaghetti."
+  },
+  {
+    "id": 7,
+    "name": "Cheeseburger",
+    "price": 11.50,
+    "image": "https://tse1.mm.bing.net/th/id/OIP.DUGzUyi-v39qM2SQsA4F9AAAAA?w=417&h=626&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "description": "Juicy beef patty with melted cheese and fresh toppings."
+  },
+  {
+    "id": 8,
+    "name": "BBQ Ribs",
+    "price": 19.99,
+    "image": "https://tse1.mm.bing.net/th/id/OIP.GoOOnW9e_WfG1xLwDfQvkgHaFR?rs=1&pid=ImgDetMain&o=7&rm=3",
+    "description": "Slow-cooked ribs with smoky barbecue sauce."
+  },
+  {
+    "id": 9,
+    "name": "Chicken Tenders",
+    "price": 10.99,
+    "image": "https://bing.com/th?id=OSK.14e96ce35707b048c90942292f2e68a4",
+    "description": "Crispy breaded tenders with dipping sauce."
+  },
+  {
+    "id": 10,
+    "name": "Grilled Salmon",
+    "price": 18.50,
+    "image": "https://th.bing.com/th/id/R.a2a969de38c74da84264d2e0b1727540?rik=aawLlOAYOLPUeQ&pid=ImgRaw&r=0",
+    "description": "Fresh salmon fillet grilled to perfection."
+  },
+  {
+    "id": 11,
+    "name": "Chocolate Cake",
+    "price": 7.50,
+    "image": "https://tse1.mm.bing.net/th/id/OIP.7bEK8zNR1hmj63EuvmzdYgHaLH?rs=1&pid=ImgDetMain&o=7&rm=3",
+    "description": "Decadent chocolate cake slice."
+  },
+  {
+    "id": 12,
+    "name": "Vanilla Ice Cream",
+    "price": 6.00,
+    "image": "https://th.bing.com/th/id/R.712faf6a7b7331fab11b1040beb3a02e?rik=LJ9Tqo%2fXvDLTKQ&riu=http%3a%2f%2fcdn2.simplysated.com%2fwp-content%2fuploads%2f2014%2f08%2fHomemade-Vanilla-Ice-Cream-22-1-P7270022.jpg&ehk=EaKLX2iGEZbE9SXMxKid%2f%2biH9ik7OUbP7pSxJp%2fjFqU%3d&risl=&pid=ImgRaw&r=0",
+    "description": "Creamy vanilla ice cream scoop."
+  },
+  {
+    "id": 13,
+    "name": "Cheesecake",
+    "price": 8.50,
+    "image": "https://tse1.mm.bing.net/th/id/OIP.9x0u8KvbDEDSMnFvXWbuSAHaJQ?rs=1&pid=ImgDetMain&o=7&rm=3",
+    "description": "Rich cheesecake with berry topping."
+  },
+  {
+    "id": 14,
+    "name": "Lemon Tart",
+    "price": 7.99,
+    "image": "https://tse3.mm.bing.net/th/id/OIP.854sykoYVX1bFSxVFsarCAHaKX?rs=1&pid=ImgDetMain&o=7&rm=3",
+    "description": "Tart lemon curd in a buttery crust."
+  },
+  {
+    "id": 15,
+    "name": "Coke",
+    "price": 2.99,
+    "image": "https://th.bing.com/th/id/R.1b836c78f7f06661e3af454dcf84e651?rik=zhsG1OUMWdkfIg&pid=ImgRaw&r=0",
+    "description": "Chilled fizzy soft drink."
+  },
+  {
+    "id": 16,
+    "name": "Iced Tea",
+    "price": 3.50,
+    "image": "https://insanelygoodrecipes.com/wp-content/uploads/2022/09/Classic-Lemon-Iced-Tea-in-Glass.jpg",
+    "description": "Refreshing iced tea with lemon."
+  },
+  {
+    "id": 17,
+    "name": "Espresso",
+    "price": 3.99,
+    "image": "https://tse2.mm.bing.net/th/id/OIP.dByRjIi_hqH-mFGU4-mkPwHaE8?rs=1&pid=ImgDetMain&o=7&rm=3",
+    "description": "Strong espresso shot."
+  },
+  {
+    "id": 18,
+    "name": "Mango Smoothie",
+    "price": 5.99,
+    "image": "https://th.bing.com/th/id/R.9f2301bfd7fd81f9f5e6ab28ac959a50?rik=7UmxZN5%2be1guoA&pid=ImgRaw&r=0",
+    "description": "Fresh mango blended smoothie."
+  },
+  {
+    "id": 19,
+    "name": "Fruit Salad",
+    "price": 9.50,
+    "image": "https://www.cookinwithmima.com/wp-content/uploads/2019/08/fruit-salad-bowl.jpg",
+    "description": "Seasonal fruits with honey drizzle."
+  },
+  {
+    "id": 20,
+    "name": "Garlic Bread",
+    "price": 5.00,
+    "image": "https://tse1.mm.bing.net/th/id/OIP.huInTHnbPAMqgOaCkY9-mQHaLH?rs=1&pid=ImgDetMain&o=7&rm=3",
+    "description": "Toasted garlic bread with herbs."
   }
 ]
